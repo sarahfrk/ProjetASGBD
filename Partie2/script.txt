@@ -1,0 +1,190 @@
+/*
+						FERKOUS                     
+						SARAH                       
+						191931043867                
+						G2
+						M1_SII_BDA_2023
+*/
+
+
+
+use M1SII
+db.createCollection("hotel")
+db.createCollection("evaluations")
+db.createCollection("chambre")
+db.createCollection("client")
+db.createCollection("reservations")
+
+
+
+-----------------------------------------------------
+1.
+db.hotel.find(
+{"etoiles": 3},
+{"_id":0, "evaluations": 0, "chambre": 0})
+
+
+
+
+
+-----------------------------------------------------
+2.
+db.hotel.aggregate([
+  {
+    $project: {
+      _id: 0,
+      nomHotel: 1,
+      reservations: "$chambre.reservations"
+    }
+  },
+  {
+    $unwind: "$reservations"
+  },
+  {
+    $group: {
+      _id: "$nomHotel",
+      nbReservations: { $sum: 1 }
+    }
+  },
+  {
+    $sort: { nbReservations: -1 }
+  },
+  {
+    $out: "HotelsNbResv"
+  }
+])
+
+
+db.HotelsNbResv.find()
+
+-----------------------------------------------------
+3.
+db.hotel.aggregate([
+  {
+    $unwind: "$chambre"
+  },
+  {
+    $match: {
+      "chambre.PRIXNUIT": {$lte: 6000}
+    }
+  },
+  {
+    $group: {
+      _id: "$nomHotel",
+      ville: { $first: "$ville" },
+      siteWeb: { $first: "$siteWeb" },
+      etoiles: { $first: "$etoiles" },
+      evaluations: { $first: "$evaluations" },
+      chambre: { $push: "$chambre" }
+    }
+  },
+  {
+    $out: "HotelsPasCher"
+  }
+])
+
+db.HotelsPasCher.find({},{"evaluations":0, "chambre":0})
+
+-----------------------------------------------------
+4.
+db.hotel.aggregate([
+  {
+    $unwind: "$evaluations"
+  },
+  {
+    $group: {
+      _id: "$nomHotel",
+      noteMoyenne: { $avg: "$evaluations.note" }
+    }
+  },
+  {
+    $match: {
+      noteMoyenne: { $gte: 5 }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      nomHotel: "$_id",
+      noteMoyenne: 1
+    }
+  }
+])
+
+
+-----------------------------------------------------
+5.
+db.client.aggregate([
+  {
+    $match: { email: "Mourad@gmail.com" }
+  },
+  {
+    $lookup: {
+      from: "hotel",
+      localField: "reservations.numHotel",
+      foreignField: "numHotel",
+      as: "hotel_reservations"
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      "reservations.DATEARRIVEE": 1,
+      "hotel_reservations.nomHotel": 1,
+      "reservations.NUMCHAMBRE": 1
+    }
+  }
+])
+
+
+//moins
+db.client.find({"email":"sarah@mail.com"},{"_id":0, "reservations":1})
+
+
+-----------------------------------------------------
+6.
+db.client.aggregate([
+  {
+    $match: { email: "Mourad@gmail.com" }
+  },
+  {
+    $lookup: {
+      from: "hotel",
+      localField: "evaluations.numHotel",
+      foreignField: "numHotel",
+      as: "hotel_evaluations"
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      "evaluations.date": 1,
+      "hotel_evaluations.nomHotel": 1,
+      "evaluations.note": 1
+    }
+  }
+])
+
+
+-----------------------------------------------------
+7.
+db.hotel.updateMany(
+  { etoiles: 5 },
+  { $inc: { "chambre.$[].PRIXNUIT": 2000 } }
+)
+
+
+-----------------------------------------------------
+8.
+var mapFunction = function() {emit(this.nomHotel, 1);};
+
+var reduceFunction = function(key, values) {return Array.sum(values);};
+
+db.hotel.mapReduce(
+    mapFunction,
+    reduceFunction,
+    { out: "result" });
+
+db.result.find().pretty();
+
+

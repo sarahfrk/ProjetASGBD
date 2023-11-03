@@ -1,0 +1,71 @@
+
+
+{
+  "hotel": {
+    "numHotel": 1,
+    "nomHotel": "Renaissance",
+    "ville": "Tlemcen",
+    "etoiles": 5,
+    "siteWeb": "https://www.hotelabc.com",
+    "evaluations": [
+      {
+        "numClient": 1,
+        "date": "2023-05-10",
+        "note": 4.5
+      },
+      {
+        "numClient": 2,
+        "date": "2023-05-09",
+        "note": 3.0
+      }
+    ],
+    "chambre": [
+      {
+        "NUMCHAMBRE": 12,
+        "ETAGE": 2,
+        "TYPECHAMBRE": "simple",
+        "PRIXNUIT": 7700,
+        "reservations": [
+          {
+            "numClient": 1,
+            "DATEARRIVEE": "2023-05-10",
+            "DATEDEPART": "2023-05-10",
+            "NUMCHAMBRE": 12
+          },
+          {
+            "numClient": 2,
+            "DATEARRIVEE": "2023-05-10",
+            "DATEDEPART": "2023-05-10",
+            "NUMCHAMBRE": 15
+          }
+        ]
+      }
+    ]
+  }
+}
+
+{
+  "client":{
+  "numClient": 37,
+  "nomClient": "BELABES",
+  "prenomClient": "Abdelkader",
+  "email": "pierre.dupont@mail.com",
+  "evaluations": [
+    {
+      "numHotel": 1,
+      "date": "2023-05-10",
+      "note": 4.5
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+}
+}
+
+

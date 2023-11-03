@@ -1,0 +1,2497 @@
+********************************************************
+INSERTION HOTEL
+********************************************************
+
+document=({
+  "numHotel": 1,
+  "nomHotel": "Renaissance",
+  "ville": "Tlemcen",
+  "etoiles": 5,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 1,
+      "date": "2023-05-10",
+      "note": 4.5
+    },
+    {
+      "numClient": 2,
+      "date": "2023-05-09",
+      "note": 3.0
+    }
+  ],
+  "chambre":[
+    {
+      "NUMCHAMBRE": 10,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7100,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-08-15",
+          "DATEDEPART": "2023-08-10",
+          "NUMCHAMBRE": 10
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-01-20",
+          "DATEDEPART": "2023-01-10",
+          "NUMCHAMBRE": 10
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 11,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7100,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-1",
+          "NUMCHAMBRE": 11
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-04-3",
+          "NUMCHAMBRE": 11
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 12,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 8800,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-6",
+          "NUMCHAMBRE": 12
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-12-11",
+          "DATEDEPART": "2023-12-10",
+          "NUMCHAMBRE": 12
+        }
+      ]
+    },
+	{
+	  "NUMCHAMBRE": 13,
+	  "ETAGE": 1,
+	  "TYPECHAMBRE": "simple",
+	  "PRIXNUIT": 6200,
+	  "reservations": [
+		{
+		  "numClient": 1,
+		  "DATEARRIVEE": "2023-05-10",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 13
+		},
+		{
+		  "numClient": 2,
+		  "DATEARRIVEE": "2023-03-30",
+		  "DATEDEPART": "2023-03-10",
+		  "NUMCHAMBRE": 13
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 21,
+	  "ETAGE": 2,
+	  "TYPECHAMBRE": "simple",
+	  "PRIXNUIT": 6800,
+	  "reservations": [
+		{
+		  "numClient": 1,
+		  "DATEARRIVEE": "2023-02-21",
+		  "DATEDEPART": "2023-02-10",
+		  "NUMCHAMBRE": 21
+		},
+		{
+		  "numClient": 2,
+		  "DATEARRIVEE": "2023-09-10",
+		  "DATEDEPART": "2023-09-8",
+		  "NUMCHAMBRE": 21
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 22,
+	  "ETAGE": 2,
+	  "TYPECHAMBRE": "simple",
+	  "PRIXNUIT": 6800,
+	  "reservations": [
+		{
+		  "numClient": 1,
+		  "DATEARRIVEE": "2023-03-10",
+		  "DATEDEPART": "2023-05-5",
+		  "NUMCHAMBRE": 22
+		},
+		{
+		  "numClient": 2,
+		  "DATEARRIVEE": "2023-06-17",
+		  "DATEDEPART": "2023-06-10",
+		  "NUMCHAMBRE": 22
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 23,
+	  "ETAGE": 2,
+	  "TYPECHAMBRE": "double",
+	  "PRIXNUIT": 8900,
+	  "reservations": [
+		{
+		  "numClient": 40,
+		  "DATEARRIVEE": "2022-05-13",
+		  "DATEDEPART": "2022-05-09",
+		  "NUMCHAMBRE": 23
+		},
+		{
+		  "numClient": 24,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 23
+		}
+		]
+	}
+	]
+})	
+
+////////////////////////////////////////////////
+document=({
+  "numHotel": 2,
+  "nomHotel": "Seybouse",
+  "ville": "Annaba",
+  "etoiles": 3,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 2,
+      "date": "2023-08-10",
+      "note": 3
+    },
+	{
+      "numClient": 1,
+      "date": "2023-08-10",
+      "note": 6.5
+    },
+    {
+      "numClient": 21,
+      "date": "2023-09-09",
+      "note": 6.0
+    }
+  ],
+  "chambre":[
+    {
+      "NUMCHAMBRE": 10,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 4500,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-08-15",
+          "DATEDEPART": "2023-08-10",
+          "NUMCHAMBRE": 10
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-01-20",
+          "DATEDEPART": "2023-01-10",
+          "NUMCHAMBRE": 10
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 2,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 4800,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-1",
+          "NUMCHAMBRE": 2
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-04-3",
+          "NUMCHAMBRE": 2
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 3,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 7100,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-6",
+          "NUMCHAMBRE": 3
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-12-11",
+          "DATEDEPART": "2023-12-10",
+          "NUMCHAMBRE": 3
+        }
+      ]
+    },
+	{
+	  "NUMCHAMBRE": 4,
+	  "ETAGE": 1,
+	  "TYPECHAMBRE": "simple",
+	  "PRIXNUIT": 5400,
+	  "reservations": [
+		{
+		  "numClient": 1,
+		  "DATEARRIVEE": "2023-05-10",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 4
+		},
+		{
+		  "numClient": 2,
+		  "DATEARRIVEE": "2023-03-30",
+		  "DATEDEPART": "2023-03-10",
+		  "NUMCHAMBRE": 4
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 5,
+	  "ETAGE": 2,
+	  "TYPECHAMBRE": "double",
+	  "PRIXNUIT": 8600,
+	  "reservations": [
+		{
+		  "numClient": 1,
+		  "DATEARRIVEE": "2023-02-21",
+		  "DATEDEPART": "2023-02-10",
+		  "NUMCHAMBRE": 5
+		},
+		{
+		  "numClient": 2,
+		  "DATEARRIVEE": "2023-09-10",
+		  "DATEDEPART": "2023-09-8",
+		  "NUMCHAMBRE": 5
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 6,
+	  "ETAGE": 2,
+	  "TYPECHAMBRE": "simple",
+	  "PRIXNUIT": 5800,
+	  "reservations": [
+		{
+		  "numClient": 1,
+		  "DATEARRIVEE": "2023-03-10",
+		  "DATEDEPART": "2023-05-5",
+		  "NUMCHAMBRE": 6
+		},
+		{
+		  "numClient": 2,
+		  "DATEARRIVEE": "2023-06-17",
+		  "DATEDEPART": "2023-06-10",
+		  "NUMCHAMBRE": 6
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 7,
+	  "ETAGE": 2,
+	  "TYPECHAMBRE": "simple",
+	  "PRIXNUIT": 5800,
+	  "reservations": [
+		{
+		  "numClient": 40,
+		  "DATEARRIVEE": "2022-05-13",
+		  "DATEDEPART": "2022-05-09",
+		  "NUMCHAMBRE": 7
+		},
+		{
+		  "numClient": 24,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 7
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 8,
+	  "ETAGE": 2,
+	  "TYPECHAMBRE": "double",
+	  "PRIXNUIT": 8600,
+	  "reservations": [
+		{
+		  "numClient": 40,
+		  "DATEARRIVEE": "2022-05-05",
+		  "DATEDEPART": "2022-05-01",
+		  "NUMCHAMBRE": 8
+		},
+		{
+		  "numClient": 24,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 8
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 10,
+	  "ETAGE": 3,
+	  "TYPECHAMBRE": "suite",
+	  "PRIXNUIT": 5800,
+	  "reservations": [
+		{
+		  "numClient": 40,
+		  "DATEARRIVEE": "2022-05-13",
+		  "DATEDEPART": "2022-05-09",
+		  "NUMCHAMBRE": 10
+		},
+		{
+		  "numClient": 24,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 10
+		}
+		]
+	}
+	]
+})	
+
+/////////////////////////////////////////////////////
+document=({
+  "numHotel": 3,
+  "nomHotel": "Hôtel Novotel ",
+  "ville": "Constantine",
+  "etoiles": 4,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 2,
+      "date": "2023-08-10",
+      "note": 3
+    },
+	{
+      "numClient": 24,
+      "date": "2023-08-10",
+      "note": 3
+    },
+    {
+      "numClient": 1,
+      "date": "2023-09-09",
+      "note": 2
+    }
+  ],
+  "chambre":[
+    {
+      "NUMCHAMBRE": 101,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 3200,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-08-15",
+          "DATEDEPART": "2023-08-10",
+          "NUMCHAMBRE": 101
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-01-20",
+          "DATEDEPART": "2023-01-10",
+          "NUMCHAMBRE": 101
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 401,
+      "ETAGE": 4,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 4200,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-1",
+          "NUMCHAMBRE": 401
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-04-3",
+          "NUMCHAMBRE": 401
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 402,
+      "ETAGE": 4,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 4200,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-6",
+          "NUMCHAMBRE": 402
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-12-11",
+          "DATEDEPART": "2023-12-10",
+          "NUMCHAMBRE": 402
+        }
+      ]
+    },
+	{
+	  "NUMCHAMBRE": 800,
+	  "ETAGE": 5,
+	  "TYPECHAMBRE": "double",
+	  "PRIXNUIT": 8600,
+	  "reservations": [
+		{
+		  "numClient": 40,
+		  "DATEARRIVEE": "2022-05-05",
+		  "DATEDEPART": "2022-05-01",
+		  "NUMCHAMBRE": 800
+		},
+		{
+		  "numClient": 24,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 800
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 10,
+	  "ETAGE": 3,
+	  "TYPECHAMBRE": "suite",
+	  "PRIXNUIT": 5800,
+	  "reservations": [
+		{
+		  "numClient": 40,
+		  "DATEARRIVEE": "2022-05-13",
+		  "DATEDEPART": "2022-05-09",
+		  "NUMCHAMBRE": 10
+		},
+		{
+		  "numClient": 24,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 10
+		}
+		]
+	}
+	]
+})
+
+///////////////////////////////////////////////////////////
+document=({
+  "numHotel": 4,
+  "nomHotel": "Saint George d'Alger",
+  "ville": "Alger",
+  "etoiles": 5,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 24,
+      "date": "2023-08-10",
+      "note": 3
+    },
+	{
+      "numClient": 40,
+      "date": "2023-08-10",
+      "note": 6.5
+    },
+    {
+      "numClient": 14,
+      "date": "2023-09-09",
+      "note": 6.0
+    }
+  ],
+  "chambre":[
+    {
+      "NUMCHAMBRE": 1,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "autre",
+      "PRIXNUIT": 13000,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-08-15",
+          "DATEDEPART": "2023-08-10",
+          "NUMCHAMBRE": 1
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-01-20",
+          "DATEDEPART": "2023-01-10",
+          "NUMCHAMBRE": 1
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 11,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 8400,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-1",
+          "NUMCHAMBRE": 11
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-04-3",
+          "NUMCHAMBRE": 11
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 12,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 8400,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-6",
+          "NUMCHAMBRE": 12
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-12-11",
+          "DATEDEPART": "2023-12-10",
+          "NUMCHAMBRE": 12
+        }
+      ]
+    },
+	{
+	  "NUMCHAMBRE": 13,
+	  "ETAGE": 1,
+	  "TYPECHAMBRE": "simple",
+	  "PRIXNUIT": 8600,
+	  "reservations": [
+		{
+		  "numClient": 40,
+		  "DATEARRIVEE": "2022-05-05",
+		  "DATEDEPART": "2022-05-01",
+		  "NUMCHAMBRE": 13
+		},
+		{
+		  "numClient": 24,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 13
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 14,
+	  "ETAGE": 1,
+	  "TYPECHAMBRE": "simple",
+	  "PRIXNUIT": 9000,
+	  "reservations": [
+		{
+		  "numClient": 40,
+		  "DATEARRIVEE": "2022-05-13",
+		  "DATEDEPART": "2022-05-09",
+		  "NUMCHAMBRE": 14
+		},
+		{
+		  "numClient": 24,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 14
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 21,
+	  "ETAGE": 2,
+	  "TYPECHAMBRE": "double",
+	  "PRIXNUIT": 12000,
+	  "reservations": [
+		{
+		  "numClient": 14,
+		  "DATEARRIVEE": "2022-05-13",
+		  "DATEDEPART": "2022-05-04",
+		  "NUMCHAMBRE": 21
+		},
+		{
+		  "numClient": 34,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 21
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 22,
+	  "ETAGE": 2,
+	  "TYPECHAMBRE": "double",
+	  "PRIXNUIT": 13000,
+	  "reservations": [
+		{
+		  "numClient": 40,
+		  "DATEARRIVEE": "2022-05-13",
+		  "DATEDEPART": "2022-05-09",
+		  "NUMCHAMBRE": 22
+		},
+		{
+		  "numClient": 24,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 22
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 31,
+	  "ETAGE": 3,
+	  "TYPECHAMBRE": "simple",
+	  "PRIXNUIT": 3100,
+	  "reservations": [
+		{
+		  "numClient": 40,
+		  "DATEARRIVEE": "2022-05-13",
+		  "DATEDEPART": "2022-05-09",
+		  "NUMCHAMBRE": 31
+		},
+		{
+		  "numClient": 24,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 31
+		}
+		]
+	},
+	{
+	  "NUMCHAMBRE": 32,
+	  "ETAGE": 1,
+	  "TYPECHAMBRE": "simple",
+	  "PRIXNUIT": 9000,
+	  "reservations": [
+		{
+		  "numClient": 40,
+		  "DATEARRIVEE": "2022-05-13",
+		  "DATEDEPART": "2022-05-09",
+		  "NUMCHAMBRE": 32
+		},
+		{
+		  "numClient": 24,
+		  "DATEARRIVEE": "2023-05-20",
+		  "DATEDEPART": "2023-05-10",
+		  "NUMCHAMBRE": 32
+		}
+		]
+	}
+	]
+})
+
+/////////////////////////////////////
+document=({
+  "numHotel": 5,
+  "nomHotel": "Ibis Alger Aéroport",
+  "ville": "Alger",
+  "etoiles": 2,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 2,
+      "date": "2023-08-10",
+      "note": 0
+    },
+	{
+      "numClient": 1,
+      "date": "2023-08-10",
+      "note": 1
+    },
+    {
+      "numClient": 112,
+      "date": "2023-09-09",
+      "note": 3
+    }
+  ],
+  "chambre":[
+    {
+      "NUMCHAMBRE": 1,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "triple",
+      "PRIXNUIT": 7000,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-05-15",
+          "DATEDEPART": "2023-05-11",
+          "NUMCHAMBRE": 1
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-01-20",
+          "DATEDEPART": "2023-01-10",
+          "NUMCHAMBRE": 1
+        },
+		{
+          "numClient": 112,
+          "DATEARRIVEE": "2023-06-10",
+          "DATEDEPART": "2023-06-07",
+          "NUMCHAMBRE": 1
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 2,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 4800,
+      "reservations": [
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-04-18",
+          "DATEDEPART": "2023-04-11",
+          "NUMCHAMBRE": 2
+        },
+        {
+          "numClient": 6,
+          "DATEARRIVEE": "2023-04-06",
+          "DATEDEPART": "2023-04-05",
+          "NUMCHAMBRE": 2
+        },
+		{
+          "numClient": 35,
+          "DATEARRIVEE": "2023-05-23",
+          "DATEDEPART": "2023-05-17",
+          "NUMCHAMBRE": 2
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 3,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 5500,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-6",
+          "NUMCHAMBRE": 3
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-12-11",
+          "DATEDEPART": "2023-12-10",
+          "NUMCHAMBRE": 3
+        }
+      ]
+    }
+	]
+})
+
+////////////////////////////////////////////
+document=({
+  "numHotel": 6,
+  "nomHotel": "El Mountazah Annaba",
+  "ville": "Annaba",
+  "etoiles": 3,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 2,
+      "date": "2023-08-10",
+      "note": 0
+    },
+	{
+      "numClient": 1,
+      "date": "2023-08-10",
+      "note": 1
+    },
+    {
+      "numClient": 112,
+      "date": "2023-09-09",
+      "note": 3
+    }
+  ],
+  "chambre":[
+    {
+      "NUMCHAMBRE": 1,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 6000,
+      "reservations": [
+        {
+          "numClient": 23,
+          "DATEARRIVEE": "2023-05-09",
+          "DATEDEPART": "2023-05-04",
+          "NUMCHAMBRE": 1
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 2,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 6000,
+      "reservations": [
+        {
+          "numClient": 13,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-02",
+          "NUMCHAMBRE": 2
+        },
+		{
+          "numClient": 14,
+          "DATEARRIVEE": "2023-05-01",
+          "DATEDEPART": "2023-04-28",
+          "NUMCHAMBRE": 2
+        },
+		{
+          "numClient": 35,
+          "DATEARRIVEE": "2023-06-02",
+          "DATEDEPART": "2023-05-27",
+          "NUMCHAMBRE": 2
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 3,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 6000,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 4,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 6200,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 5,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 6200,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 6,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 6200,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-6",
+          "NUMCHAMBRE": 6
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2023-12-11",
+          "DATEDEPART": "2023-12-10",
+          "NUMCHAMBRE": 6
+        }
+      ]
+    }
+	]
+})
+
+////////////////////////////////////////////
+document=({
+  "numHotel": 7,
+  "nomHotel": "Hôtel Albert 1er",
+  "ville": "Alger",
+  "etoiles": 3,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 2,
+      "date": "2023-08-10",
+      "note": 0
+    },
+	{
+      "numClient": 1,
+      "date": "2023-08-10",
+      "note": 1
+    },
+    {
+      "numClient": 112,
+      "date": "2023-09-09",
+      "note": 3
+    }
+  ],
+  "chambre":[
+    {
+      "NUMCHAMBRE": 10,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 3100,
+      "reservations": [
+        {
+          "numClient": 23,
+          "DATEARRIVEE": "2023-05-09",
+          "DATEDEPART": "2023-05-04",
+          "NUMCHAMBRE": 10
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 11,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 3100,
+      "reservations": [
+        {
+          "numClient": 13,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-02",
+          "NUMCHAMBRE": 11
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 20,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 3100,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 21,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 3100,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 5,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 6200,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 22,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 4200,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2022-05-10",
+          "DATEDEPART": "2022-05-6",
+          "NUMCHAMBRE": 22
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2022-12-11",
+          "DATEDEPART": "2022-12-10",
+          "NUMCHAMBRE": 22
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 30,
+      "ETAGE": 3,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 3100,
+      "reservations": [
+        {
+          "numClient": 6,
+          "DATEARRIVEE": "2022-05-01",
+          "DATEDEPART": "2022-04-27",
+          "NUMCHAMBRE": 30
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 32,
+      "ETAGE": 3,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 4200,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 40,
+      "ETAGE": 4,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 2000,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 41,
+      "ETAGE": 4,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 2000,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 42,
+      "ETAGE": 4,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 2000,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 43,
+      "ETAGE": 4,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 1800,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 44,
+      "ETAGE": 4,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 1800,
+      "reservations": [
+      ]
+    }
+	]
+})
+
+///////////////////////////////////////////////////////////////
+document=({
+  "numHotel": 8,
+  "nomHotel": "Chems",
+  "ville": "Oran",
+  "etoiles": 2,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 2,
+      "date": "2022-08-10",
+      "note": 0
+    },
+	{
+      "numClient": 28,
+      "date": "2022-08-10",
+      "note": 1
+    },
+    {
+      "numClient": 112,
+      "date": "2022-09-09",
+      "note": 3
+    }
+  ],
+  "chambre":[
+    {
+      "NUMCHAMBRE": 100,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 2900,
+      "reservations": [
+        {
+          "numClient": 28,
+          "DATEARRIVEE": "2022-05-03",
+          "DATEDEPART": "2022-04-30",
+          "NUMCHAMBRE": 100
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 101,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 2900,
+      "reservations": [
+        {
+          "numClient": 13,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-02",
+          "NUMCHAMBRE": 101
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 200,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 2800,
+      "reservations": [
+	    {
+          "numClient": 13,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-02",
+          "NUMCHAMBRE": 200
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 201,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 2900,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 202,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 2900,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 300,
+      "ETAGE": 3,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 3000,
+      "reservations": [
+        {
+          "numClient": 1,
+          "DATEARRIVEE": "2022-05-10",
+          "DATEDEPART": "2022-05-6",
+          "NUMCHAMBRE": 300
+        },
+        {
+          "numClient": 2,
+          "DATEARRIVEE": "2022-12-11",
+          "DATEDEPART": "2022-12-10",
+          "NUMCHAMBRE": 300
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 301,
+      "ETAGE": 3,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 3100,
+      "reservations": [
+        {
+          "numClient": 16,
+          "DATEARRIVEE": "2022-05-03",
+          "DATEDEPART": "2022-05-01",
+          "NUMCHAMBRE": 301
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 302,
+      "ETAGE": 3,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 3700,
+      "reservations": [
+	  {
+          "numClient": 37,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-12",
+          "NUMCHAMBRE": 302
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 401,
+      "ETAGE": 4,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 3700,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 402,
+      "ETAGE": 4,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 2000,
+      "reservations": [
+      ]
+    }
+	]
+})
+
+////////////////////////////////////////////
+document=({
+  "numHotel": 9,
+  "nomHotel": "Colombe",
+  "ville": "Oran",
+  "etoiles": 3,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 2,
+      "date": "2023-06-10",
+      "note": 9
+    },
+	{
+      "numClient": 15,
+      "date": "2023-08-10",
+      "note": 4
+    },
+    {
+      "numClient": 13,
+      "date": "2023-06-09",
+      "note": 1
+    }
+  ],
+  "chambre":[
+   {
+      "NUMCHAMBRE": 2,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 3100,
+      "reservations": [
+      ]
+    },
+    {
+      "NUMCHAMBRE": 2,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 3100,
+      "reservations": [
+        {
+          "numClient": 28,
+          "DATEARRIVEE": "2022-04-14",
+          "DATEDEPART": "2022-04-13",
+          "NUMCHAMBRE": 2
+        },
+		{
+          "numClient": 20,
+          "DATEARRIVEE": "2022-05-20",
+          "DATEDEPART": "2022-05-03",
+          "NUMCHAMBRE": 2
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 5,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 3200,
+      "reservations": [
+        {
+          "numClient": 13,
+          "DATEARRIVEE": "2023-05-10",
+          "DATEDEPART": "2023-05-02",
+          "NUMCHAMBRE": 5
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 6,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 4800,
+      "reservations": [
+	    {
+          "numClient": 15,
+          "DATEARRIVEE": "2023-04-20",
+          "DATEDEPART": "2023-04-15",
+          "NUMCHAMBRE": 6
+        }
+      ]
+    }
+	]
+})
+
+///////////////////////////////////////////
+
+document=({
+  "numHotel": 10,
+  "nomHotel": "Mercure",
+  "ville": "Alger",
+  "etoiles": 4,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 2,
+      "date": "2023-06-10",
+      "note": 9
+    },
+	{
+      "numClient": 15,
+      "date": "2023-08-10",
+      "note": 4
+    },
+    {
+      "numClient": 13,
+      "date": "2023-06-09",
+      "note": 1
+    }
+  ],
+  "chambre":[
+    {
+      "NUMCHAMBRE": 100,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 9700,
+      "reservations": [
+        {
+          "numClient": 6,
+          "DATEARRIVEE": "2022-06-14",
+          "DATEDEPART": "2022-06-11",
+          "NUMCHAMBRE": 100
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 101,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 3200,
+      "reservations": [
+      ]
+    },
+    {
+      "NUMCHAMBRE": 200,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 9700,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 201,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 9700,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 202,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "triple",
+      "PRIXNUIT": 14100,
+      "reservations": [
+      ]
+    }
+	]
+})
+
+////////////////////////////////////////
+document=({
+  "numHotel": 11,
+  "nomHotel": "Le Méridien",
+  "ville": "Oran",
+  "etoiles": 5,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 2,
+      "date": "2023-06-10",
+      "note": 9
+    },
+	{
+      "numClient": 15,
+      "date": "2023-08-10",
+      "note": 4
+    },
+    {
+      "numClient": 13,
+      "date": "2023-06-09",
+      "note": 1
+    }
+  ],
+  "chambre":[
+    {
+      "NUMCHAMBRE": 1,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7800,
+      "reservations": [
+	   {
+          "numClient": 29,
+          "DATEARRIVEE": "2022-04-08",
+          "DATEDEPART": "2022-04-04",
+          "NUMCHAMBRE": 100
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 2,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7800,
+      "reservations": [
+      ]
+    },
+    {
+      "NUMCHAMBRE": 3,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7800,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 4,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7800,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 5,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7800,
+      "reservations": [
+	   {
+          "numClient": 44,
+          "DATEARRIVEE": "2022-05-07",
+          "DATEDEPART": "2022-04-07",
+          "NUMCHAMBRE": 5
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 6,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7800,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 7,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7800,
+      "reservations": [
+	   {
+          "numClient": 7,
+          "DATEARRIVEE": "2022-05-12",
+          "DATEDEPART": "2022-05-07",
+          "NUMCHAMBRE": 7
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 8,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7800,
+      "reservations": [
+	    {
+          "numClient": 12,
+          "DATEARRIVEE": "2022-05-10",
+          "DATEDEPART": "2022-05-09",
+          "NUMCHAMBRE": 8
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 9,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7800,
+      "reservations": [
+	    {
+          "numClient": 3,
+          "DATEARRIVEE": "2022-04-08",
+          "DATEDEPART": "2022-04-06",
+          "NUMCHAMBRE": 9
+        },
+		{
+          "numClient": 40,
+          "DATEARRIVEE": "2022-05-13",
+          "DATEDEPART": "2022-05-09",
+          "NUMCHAMBRE": 100
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 10,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7800,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 11,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7800,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 12,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 9100,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 13,
+      "ETAGE": 0,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 9100,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 14,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 9100,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 15,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 9100,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 16,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7700,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 17,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7700,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 18,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7700,
+      "reservations": [
+	   {
+          "numClient": 25,
+          "DATEARRIVEE": "2022-05-04",
+          "DATEDEPART": "2022-04-04",
+          "NUMCHAMBRE": 100
+        },
+		{
+          "numClient": 26,
+          "DATEARRIVEE": "2022-04-26",
+          "DATEDEPART": "2022-04-22",
+          "NUMCHAMBRE": 100
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 19,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "simple",
+      "PRIXNUIT": 7700,
+      "reservations": [
+	   {
+          "numClient": 47,
+          "DATEARRIVEE": "2022-04-08",
+          "DATEDEPART": "2022-04-04",
+          "NUMCHAMBRE": 19
+        }
+      ]
+    }
+	]
+})
+
+//////////////////////////////////////////////
+
+document=({
+  "numHotel": 12,
+  "nomHotel": "Hôtel Sofitel ",
+  "ville": "Alger",
+  "etoiles": 5,
+  "siteWeb": "",
+  "evaluations": [
+    {
+      "numClient": 37,
+      "date": "2022-09-10",
+      "note": 2
+    },
+	{
+      "numClient": 39,
+      "date": "2022-02-10",
+      "note": 1
+    }
+  ],
+  "chambre":[
+   {
+      "NUMCHAMBRE": 101,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 13000,
+      "reservations": [
+        {
+          "numClient": 35,
+          "DATEARRIVEE": "2022-05-06",
+          "DATEDEPART": "2022-04-04",
+          "NUMCHAMBRE": 101
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 102,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 13000,
+      "reservations": [
+        {
+          "numClient": 6,
+          "DATEARRIVEE": "2022-06-14",
+          "DATEDEPART": "2022-06-11",
+          "NUMCHAMBRE": 102
+        }
+      ]
+    },
+    {
+      "NUMCHAMBRE": 103,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 13000,
+      "reservations": [
+      ]
+    },
+    {
+      "NUMCHAMBRE": 104,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 9700,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 105,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 9700,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 106,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 14500,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 107,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 14500,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 201,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 14500,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 202,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 14500,
+      "reservations": [
+	   {
+          "numClient": 37,
+          "DATEARRIVEE": "2022-05-18",
+          "DATEDEPART": "2022-05-11",
+          "NUMCHAMBRE": 202
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 203,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 11800,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 204,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 11800,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 205,
+      "ETAGE": 1,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 13000,
+      "reservations": [
+	   {
+          "numClient": 29,
+          "DATEARRIVEE": "2022-05-09",
+          "DATEDEPART": "2022-05-04",
+          "NUMCHAMBRE": 101
+        }
+      ]
+    },
+	{
+      "NUMCHAMBRE": 206,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 14500,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 207,
+      "ETAGE": 2,
+      "TYPECHAMBRE": "double",
+      "PRIXNUIT": 14500,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 301,
+      "ETAGE": 3,
+      "TYPECHAMBRE": "suite",
+      "PRIXNUIT": 19500,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 302,
+      "ETAGE": 3,
+      "TYPECHAMBRE": "suite",
+      "PRIXNUIT": 19500,
+      "reservations": [
+      ]
+    },
+	{
+      "NUMCHAMBRE": 303,
+      "ETAGE": 3,
+      "TYPECHAMBRE": "suite",
+      "PRIXNUIT": 19500,
+      "reservations": [
+      ]
+    }
+	]
+})
+
+
+
+******************************************************************
+INSERTION CLIENT
+********************************************************
+
+document=({
+  "numClient": 1,
+  "nomClient": "BOUROUBI",
+  "prenomClient": "Taous",
+  "email": "taous.dupont@mail.com",
+  "evaluations": [
+    {
+      "numHotel": 1,
+      "date": "2023-05-10",
+      "note": 4.5
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+
+document=({
+  "numClient": 2,
+  "nomClient": "BOUZIDI",
+  "prenomClient": "Amel",
+  "email": "amel.dupont@mail.com",
+  "evaluations": [
+    {
+      "numHotel": 2,
+      "date": "2023-05-10",
+      "note": 3.5
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+
+document=({
+  "numClient": 3,
+  "nomClient": "LACHEMI",
+  "prenomClient": "Bouzid",
+  "email": "bouzid.dupont@mail.com",
+  "evaluations": [
+    {
+      "numHotel": 3,
+      "date": "2023-05-10",
+      "note": 3.5
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+
+document=({
+  "numClient": 4,
+  "nomClient": "BOUCHEMLA",
+  "prenomClient": "Elias",
+  "email": "bouzid.dupont@mail.com",
+  "evaluations": [
+    {
+      "numHotel": 4,
+      "date": "2023-05-10",
+      "note": 3.5
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 4,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 5,
+  "nomClient": "HADJ",
+  "prenomClient": "Zouhir",
+  "email": "Zouhir.dupont@mail.com",
+  "evaluations": [
+    {
+      "numHotel": 5,
+      "date": "2023-05-10",
+      "note": 3.5
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 5,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+
+document=({
+  "numClient": 6,
+  "nomClient": "OUSSEDIK",
+  "prenomClient": "Hakim",
+  "email": "hakim.dupont@mail.com",
+  "evaluations": [
+    {
+      "numHotel": 3,
+      "date": "2023-05-10",
+      "note": 3.5
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 7,
+  "nomClient": "AAKOUB",
+  "prenomClient": "Fatiha",
+  "email": "fatiha.dupont@mail.com",
+  "evaluations": [
+    {
+      "numHotel": 5,
+      "date": "2023-05-10",
+      "note": 3.5
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 5,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 8,
+  "nomClient": "ADAB",
+  "prenomClient": "Abdelhamid",
+  "email": "Abdelhamid.dupont@mail.com",
+  "evaluations": [
+    {
+      "numHotel": 6,
+      "date": "2023-05-10",
+      "note": 10
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 6,
+      "DATEARRIVEE": "10-05-2022",
+      "DATEDEPART": "09-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 9,
+  "nomClient": "ABADA",
+  "prenomClient": "Mohamed",
+  "email": "Mohamed.dupont@mail.com",
+  "evaluations": [
+    {
+      "numHotel": 5,
+      "date": "2023-05-10",
+      "note": 1
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+
+document=({
+  "numClient": 10,
+  "nomClient": "ABAYAHIA",
+  "prenomClient": "Abdelkader",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 9,
+      "date": "2023-05-10",
+      "note": 9
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 9,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+
+document=({
+  "numClient": 11,
+  "nomClient": "ABBACI",
+  "prenomClient": "Abdelmadjid",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 10,
+      "date": "2023-05-10",
+      "note": 7
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 10,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 12,
+  "nomClient": "ABBAS",
+  "prenomClient": "Samira",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 5,
+      "date": "2023-05-10",
+      "note": 1
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 13,
+  "nomClient": "ABBOU",
+  "prenomClient": "Mohamed",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 11,
+      "date": "2023-05-10",
+      "note": 1
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 11,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+
+document=({
+  "numClient": 14,
+  "nomClient": "ABDELAZIZ",
+  "prenomClient": "Ahmed",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 3,
+      "date": "2023-05-10",
+      "note": 4
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 3,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 15,
+  "nomClient": "ABDELMOUMEN",
+  "prenomClient": "Nassima",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 7,
+      "date": "2023-05-10",
+      "note": 4
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 7,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 16,
+  "nomClient": "ABDELOUAHAB",
+  "prenomClient": "OUAHIBA",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 1,
+      "date": "2023-05-10",
+      "note": 2
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 17,
+  "nomClient": "ABDEMEZIANE",
+  "prenomClient": "Madjid",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 12,
+      "date": "2023-05-10",
+      "note": 8
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 12,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 18,
+  "nomClient": "ABERKANE",
+  "prenomClient": "Aicha",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 5,
+      "date": "2023-05-10",
+      "note": 1
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 19,
+  "nomClient": "AZOUG",
+  "prenomClient": "Dalila",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 4,
+      "date": "2023-05-10",
+      "note": 7
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 4,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 20,
+  "nomClient": "BENOUADAH",
+  "prenomClient": "Mohamed",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 4,
+      "date": "2023-05-10",
+      "note": 1
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 4,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 21,
+  "nomClient": "ACHAIBOU",
+  "prenomClient": "rachid",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 5,
+      "date": "2023-05-10",
+      "note": 10
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 22,
+  "nomClient": "ADDAD",
+  "prenomClient": "Fadila",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 6,
+      "date": "2023-05-10",
+      "note": 8
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 6,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 23,
+  "nomClient": "AGGOUN",
+  "prenomClient": "Khadidja",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 5,
+      "date": "2023-05-10",
+      "note": 1
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 5,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 24,
+  "nomClient": "AISSAT",
+  "prenomClient": "Salima",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 7,
+      "date": "2023-05-10",
+      "note": 10
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 7,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 20
+    }
+  ]
+})
+
+document=({
+  "numClient": 25,
+  "nomClient": "AMARA",
+  "prenomClient": "Dahbia",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 7,
+      "date": "2023-05-10",
+      "note": 9
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 7,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 26,
+  "nomClient": "AROUEL",
+  "prenomClient": "Laila",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 11,
+      "date": "2023-05-10",
+      "note": 10
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 11,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 27,
+  "nomClient": "BAALI",
+  "prenomClient": "Souad",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 5,
+      "date": "2023-05-10",
+      "note": 3
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 5,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+
+
+
+document=({
+  "numClient": 28,
+  "nomClient": "BABACI",
+  "prenomClient": "Mourad",
+  "email": "Mourad@gmail.com",
+  "evaluations": [
+    {
+      "numHotel": 5,
+      "date": "2023-05-10",
+      "note": 1
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+document=({
+  "numClient": 29,
+  "nomClient": "BACHA",
+  "prenomClient": "Nadia",
+  "email": "",
+  "evaluations": [
+    {
+      "numHotel": 5,
+      "date": "2023-05-10",
+      "note": 1
+    },
+	{
+      "numHotel": 3,
+      "date": "2023-05-10",
+      "note": 10
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
+
+
+document=({
+  "numClient": 30,
+  "nomClient": "BAHBOUH",
+  "prenomClient": "Naima",
+  "email": "naima@gmail.com",
+  "evaluations": [
+    {
+      "numHotel": 5,
+      "date": "2023-05-10",
+      "note": 9
+    },
+	{
+      "numHotel": 12,
+      "date": "2023-05-10",
+      "note": 5
+    }
+  ],
+  "reservations": [
+    {
+      "numHotel": 1,
+      "DATEARRIVEE": "18-05-2022",
+      "DATEDEPART": "11-05-2022",
+	  "NUMCHAMBRE": 202
+    }
+  ]
+})
